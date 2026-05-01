@@ -10,7 +10,7 @@ paddle_h = 30
 paddle = pygame.Rect(width / 2 - paddle_w / 2, height - paddle_h - 10, paddle_w, paddle_h)
 p_speed = 15
 
-ball_r = 267
+ball_r = 15
 ball_speed = 3
 ball_d = ball_r * 2
 ball = pygame.Rect(randrange(ball_d, width - ball_d), height / 2, ball_d, ball_d)
